@@ -20,9 +20,17 @@ ML pandas, numpy, dill, flask, sklearn
 
 Модель: model_curs
 
+В директории for_python гаходятся три ноутбука. 
+1. Step1_api - сборка пайплайна. 
+2. Step2_api - проверка работоспособности пайплайна. 
+3. Step3_api - получение предсказаний, после запуска файла run_server
+
 Клонируем репозиторий:
 git clone https://github.com/AlekseyZhilin/api_curs_project
+1. Переносим директорию app в каталог пользователя
+2. В коммандной строке пишем: сd app
+3. В коммандной строке пишем: python run_server.py
 
 Запускаем контейнер
 
-Переходим на localhost:8181
+Переходим на http://localhost:5000/predict, получаем предсказания
