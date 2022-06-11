@@ -50,10 +50,10 @@ def predict():
             if request_json[key]:
                 param_dict[key] = [request_json[key]]
 
-    preds = model.predict_proba(pd.DataFrame(param_dict))
-    data["predictions"] = preds[:, 1][1]
-    # indicate that the request was a success
-    data["success"] = True
+        preds = model.predict_proba(pd.DataFrame(param_dict))
+        data["predictions"] = preds[:, 1][1]
+        # indicate that the request was a success
+        data["success"] = True
 
     # return the data dictionary as a JSON response
     return flask.jsonify(data)
