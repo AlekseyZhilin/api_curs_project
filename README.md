@@ -20,10 +20,12 @@ ML pandas, numpy, dill, flask, sklearn
 
 Модель: model_curs
 
-В директории for_python гаходятся три ноутбука. 
+В директории for_python находятся три ноутбука. 
 1. Step1_api - сборка пайплайна. 
 2. Step2_api - проверка работоспособности пайплайна. 
 3. Step3_api - получение предсказаний, после запуска файла run_server
+4. Файл с данными используемыми при обучении модели WA_Fn-UseC_-Telco-Customer-Churn
+5. Файлы X_test и y_test, используемые для проверки работоспособности пайплайна
 
 Клонируем репозиторий:
 git clone https://github.com/AlekseyZhilin/api_curs_project
