@@ -29,6 +29,7 @@ ML pandas, numpy, dill, flask, sklearn
 
 Клонируем репозиторий:
 git clone https://github.com/AlekseyZhilin/api_curs_project
+0. (При необходимости) устанавливаем библиотеки pip install -r requirements.txt
 1. Переносим директорию app в каталог пользователя
 2. В коммандной строке пишем: сd app
 3. В коммандной строке пишем: python run_server.py
