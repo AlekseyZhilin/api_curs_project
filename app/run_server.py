@@ -7,7 +7,6 @@
 #	python simple_request.py
 
 # import the necessary packages
-import numpy as np
 import dill
 import pandas as pd
 import flask as flask
@@ -33,7 +32,7 @@ def general():
 def predict():
     # initialize the data dictionary that will be returned from the
     # view
-    data = {"success": False}
+    data = {"success": False, "predictions": []}
 
     # ensure an image was properly uploaded to our endpoint
     param_dict = {'gender': [False],
@@ -65,6 +64,7 @@ def predict():
 if __name__ == "__main__":
     print(("* Loading the model and Flask starting server..."
            "please wait until server has fully started"))
-    model_path = "./models/model_curs.dill"
+    #model_path = "./models/model_curs.dill"
+    model_path = "models/model_curs.dill"
     load_model(model_path)
     app.run()
