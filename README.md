@@ -21,8 +21,8 @@ ML pandas, numpy, dill, flask, sklearn
 Модель: model_curs
 
 Клонируем репозиторий:
-git clone https//:
+git clone https://github.com/AlekseyZhilin/api_project
 
-Запискаем контейнер
+Запускаем контейнер
 
 Переходим на localhost:8181
