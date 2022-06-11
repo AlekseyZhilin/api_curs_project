@@ -37,4 +37,4 @@ git clone https://github.com/AlekseyZhilin/api_curs_project
 
 Запускаем контейнер
 
-Переходим на http://localhost:5000/predict, получаем предсказания
+Переходим на http://127.0.0.1:5000
