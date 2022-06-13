@@ -30,6 +30,8 @@ ML pandas, numpy, dill, flask, sklearn
 Клонируем репозиторий:
 git clone https://github.com/AlekseyZhilin/api_curs_project
 
+Linux у меня нет, поэтому docker сделать не могу. Для использования, предлагаю следующий вариант (только api):
+
 При необходимости, устанавливаем библиотеки pip install -r requirements.txt
 1. Переносим директорию app в каталог пользователя
 2. В коммандной строке пишем: сd app
